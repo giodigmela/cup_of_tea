@@ -7,6 +7,8 @@ body{
 }
 .cup_box{
   position: relative;
+  top: 50px;
+  left: -250px;
   height: 300px;
   width: 300px;
 }
@@ -71,7 +73,7 @@ body{
   border-bottom-color: transparent;
   border-left-color: transparent;
   box-shadow:
-  0px 0px 100px 50px #272347;
+  0px 0px 100px 50px #bfbbbb;
 }
 .animation{
   position: relative;
@@ -135,5 +137,25 @@ body{
     transform: translateY(-120px) scaleX(4);
     opacity: 0;
   }
+}
+.plate_box{
+  position: relative;
+  top: 185px;
+  left: 150px;
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  background: linear-gradient(to left, #e8e8e8, white);
+  border-radius:100% 100% 100% 100%;
+}
+.plate_box_1{
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  width: 485px;
+  height: 185px;
+  background-color: white;
+  background: linear-gradient(to left, white, #e8e8e8);
+  border-radius:100% 100% 100% 100%;
 }
 
